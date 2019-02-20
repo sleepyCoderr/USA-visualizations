@@ -1,0 +1,94 @@
+.state{
+	fill: #cccccc;
+	stroke: black;
+}
+
+path {
+	fill: #ccc;
+	stroke: #fff;
+	stroke-width: .5px;
+  }
+
+
+  path:hover {
+	fill: orange;
+  }
+
+  body {
+	text-align: center;
+  }
+  
+  div.tooltip { 
+	  position: absolute;     
+	  text-align: center;     
+	  width: 100px;          
+	  height: 300px;         
+	  padding: 2px;       
+	  font: 12px sans-serif;    
+	  background: #fff; 
+	  border: 0px;        
+		pointer-events: none; 
+		font-size:20px;    
+	}
+
+	div.newTooltip h4{
+		margin:0;
+		font-size:20px;
+	}
+
+
+	div.newTooltip{
+
+		position: absolute;     
+	  text-align: center;     
+	  width: 150px;          
+	  height: 70px;         
+	  padding: 1px;       
+	  background: #fff; 
+	  border: 0px;        
+		pointer-events: none; 
+	}
+
+	div.newTooltip table{
+		table-layout:fixed;
+	}
+	div.newTooltip  tr td{
+		padding:0;
+		margin:0;
+	}
+	div.newTooltip tr td:nth-child(1){
+		width:100px;
+	}
+
+
+	div.countyTooltip h4{
+		margin:0;
+		font-size:20px;
+	}
+
+
+	div.countyTooltip{
+
+		position: absolute;     
+	  text-align: center;     
+	  width: 250px;          
+	  height: 200px;         
+	  padding: 1px;       
+	  background: #fff; 
+	  border: 0px;        
+		pointer-events: none; 
+	}
+
+	div.countyTooltip table{
+		table-layout:fixed;
+	}
+	div.countyTooltip  tr td{
+		padding:0;
+		margin:0;
+	}
+	div.countyTooltip tr td:nth-child(1){
+		width:100px;
+	}
+
+
+
